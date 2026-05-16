@@ -82,8 +82,46 @@
   	   			 	 printf("appka special recharge  ho gya he\n\n");
 					  
   	   			 break;
+  	   		case '3':
+  	   			 	
+  	   			 	printf("\n\ninernet recharge mate a dabavo\n\n");
+  	   			 	
+  	   			 	printf("top up inernet recharge mate b dabavo\n\n");
+  	   			 	
+  	   			 	printf("special recharge mate c dabavo\n\n");
+  	   			 	
+  	   			 	char og;
+  	   			 	
+  	   			 	printf("enter your choice:-");
+  	   			 	scanf(" %c",&og);
+  	   			 	
+  	   			 	switch(og)
+  	   			 	{
+  	   			 		case 'a':
+  	   			 			printf("tamaru inernet recharge thai gyu 6");
+  	   			 			break;
+  	   			 			
+  	   			 		case 'b':	
+  	   			 			printf("tamaru top up recharge thai gyu 6");
+                            break;
+                            
+  	                     case 'c':
+	 	 			 			printf("tamaru special recharge thai gyu 6");
+                        break;
+                           default:
+                          printf("non");
+                        
+  	   	
+						  }
+						  
+
+
   	   		}
   	   		
 		 }
 		 
-  }
+  
+
+		 
+		 
+  
