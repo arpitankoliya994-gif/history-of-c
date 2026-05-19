@@ -14,8 +14,8 @@
  	
  	char name;
  	 
- 	 printf("enter your name :-\n");
- 	 scanf("%c",&name);
+ 	 printf("enter your name :-");
+ 	 scanf(" %c",&name);
  	 
  	 printf("avilable ticket:-%d\n",totalseats-bookedseats);
  	 
@@ -34,11 +34,11 @@
 	 
    printf("press 1 for hollywood\n");
   
-  printf("press 2 for bollywood\n");
+   printf("press 2 for bollywood\n");
   
   printf("press 3 for tollywood\n");
   
-  printf("press 4 for gujarati\n");
+   printf("press 4 for gujarati\n");
   
   char choice;
   printf("enter your choice:-");
@@ -49,7 +49,7 @@
   	case '1':
   		printf("-----welcome to hollywood world-----\n\n");
   		
-  		printf("press 1 for comedy\n\n");
+  		 printf("press 1 for comedy\n\n");
   		
   		printf("press 2 horooooor\n\n");
   		
@@ -112,6 +112,49 @@
 			  
 			   
 	  		
+	  			char choice4;
+				printf("enter your choice:-");
+	  scanf(" %c",&choice4);	
+	    
+	    switch(choice4)
+	    {
+	    	case '1':
+	    		printf(" 300 $  normal sofa(press 1)\n\n");
+printf(" press 2 for 400 $  normal+ sofa\n\n");
+printf(" press 3 for 450 $  normal sofa\n\n");	    		
+	    		char choice5;
+				printf("enter your choice:-");
+	  scanf(" %c",&choice5);	
+	  
+	    switch(choice5)
+	    
+	     case '1':
+	     	printf("your normal sofa for c1 is booked");
+	     	break;
+	     	   case '2':
+	     	printf("your normal+ sofa for c2 is booked");
+	     	break;
+	     	   case '3':
+	     	printf("your luxiory for c3 is booked");
+	     	break;
+	    		
+	    
+		}
+	  		
+	  		
+		    			break;
+		    			
+		    			case '2':
+		    				printf("you enter in 10:45 arena\n\n");
+		    				
+		    			printf("movie list is given below\n\n");
+		    			
+		    			printf("press 1 for c1 \n");
+		    			
+	  		printf("prees 2 for c2\n");
+	  		
+	  		printf("prees 3 for c3\n");
+	  		
 	  			char choice6;
 				printf("enter your choice:-");
 	  scanf(" %c",&choice6);	
@@ -139,22 +182,7 @@
 	     	printf("your luxiory for c3 is booked");
 	     	break;
 	    		
-	    		
-		}
-	  		
-	  		
-		    			break;
-		    			
-		    			case '2':
-		    				printf("you enter in 10:45 arena\n\n");
-		    				
-		    			printf("movie list is given below\n\n");
-		    			
-		    			printf("press 1 for c1 \n");
-		    			
-	  		printf("prees 2 for c2\n");
-	  		
-	  		printf("prees 3 for c3\n");
+	    	}
 	  		break;
 		    			
 				}
@@ -172,14 +200,14 @@
 		    	printf("press 2 for 10:45\n");
 		    	
 				
-				char choice4;
+				char choice8;
 				printf("enter your choice:-");
-	  scanf(" %c",&choice4);	
+	  scanf(" %c",&choice8);	
 	  
 	  
             break;		
 					    	
-		    	switch(choice4)
+		    	switch(choice8)
 		    	{
 		    		case '1':
 		    			printf("you enter in 9:45 arena\n\n");
@@ -192,6 +220,34 @@
 	  		
 	  		
 	  		printf("prees 3 for c3\n");
+	  			char choice9;
+				printf("enter your choice:-");
+	  scanf(" %c",&choice9);	
+	    
+	    switch(choice9)
+	    {
+	    	case '1':
+	    		printf(" press 1 for 300 $  normal sofa\n\n");
+printf(" press 2 for 400 $  normal+ sofa\n\n");
+printf(" press 3 for 450 $  normal sofa\n\n");	    		
+	    	
+				char choice10;
+				printf("enter your choice:-");
+	  scanf(" %c",&choice10);	
+	  
+	    switch(choice10)
+	    
+	     case '1':
+	     	printf("your normal sofa for c1 is booked");
+	     	break;
+	     	   case '2':
+	     	printf("your normal+ sofa for c2 is booked");
+	     	break;
+	     	   case '3':
+	     	printf("your luxiory for c3 is booked");
+	     	break;
+	    		
+	}
 		    			break;
 		    			
 		    			case '2':
@@ -218,14 +274,14 @@
 				printf("press 1 for 5:00\n");
 		    	printf("press 2 for 4:30\n");
 				
-				char choice5;
+				char choice11;
 				printf("enter your choice:-");
-	  scanf(" %c",&choice5);	
+	  scanf(" %c",&choice11);	
 	  
 	  
             break;		
 					    	
-		    	switch(choice5)
+		    	switch(choice11)
 		    	{
 		    		case '1':
 		    			printf("you enter in 5:00 arena\n\n");
@@ -272,4 +328,5 @@
 	  
     }
  	
+ }
  }
