@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main()
+{
+    int r;
+    char y;
+
+    printf("Enter your Marks : ");
+    scanf("%d", &r);
+
+    gop = (r<= 100 && r >= 81) ? 'A' :
+          (r<= 80 && r>= 61) ? 'B' :
+          (r<= 60 && r >= 41) ? 'C' :
+          (r <= 40 && r>= 34) ? 'D' :
+          ( r < 34 && r>= 0)  ?  'F' :'Failed';
+
+    printf("Your Grade is %c\n", y);
+
+    switch(y)
+    {
+        case 'A':
+            printf("Excellent work");
+            break;
+
+        case 'B':
+            printf("Well Done");
+            break;
+
+        case 'C':
+            printf("Good job");
+            break;
+
+        case 'D':
+            printf("You passed, but you could do better");
+            break;
+
+        case 'F':
+            printf("SORRY, YOU FAILED");
+            break;
+
+        default:
+            printf("Invalid ");
+            break;
+    }
+
+    if(y != 'F')
+    {
+        printf("\n\nYou are eligible for the next level exam.");
+    }
+    else
+    {
+        printf("\nPlease try again next time...");
+    }
+
+    return 0;
+}
